@@ -1,0 +1,156 @@
+body{
+	height:100%;
+	background-image: url("../images/grey_wash_wall.png");
+}
+nav{
+	color: #4aaaa5;
+	z-index:6;
+
+}
+
+.picture{
+	max-width: 100%;
+	height:auto;
+}
+.wrapper{
+	height:100%;
+
+	clear:both;
+	min-height: calc(100vh - 100px);
+	position:relative;
+	top:0;
+}
+footer{
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+	width:100%;
+	overflow: hidden;
+	background-color: #4aaaa5;
+
+}
+
+.side{
+	padding-left: 50px;
+	padding-right:50px;
+}
+
+.iconCol{
+	padding:0;
+	
+}
+.iconPic{
+	max-width: 120px;
+}
+.iconPic1{
+	float:right;
+}
+img{
+	width: 100%;
+	height:auto;
+}
+.imgCenter{
+	
+}
+.main{
+	margin-bottom:50px;
+}
+.rel{
+	position:relative;
+}
+.portDiv{
+	margin-bottom:20px;
+	text-align: center;
+	max-width: 400px;
+	
+}
+.portPic{
+	
+}
+.proPic{
+	max-width:350px;
+}
+
+.portLabel{
+	position:absolute;
+	background-color:#4aaaa5;
+	color:white;
+	top:150%;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*text-align: center;*/
+}
+.imgCenter{
+	text-align: center;
+}
+.side{
+	margin-bottom:50px;
+}
+	
+input[type=text],  textarea  {
+  font-size: 18px;
+  line-height: 18px;
+  width:100%;
+  color:grey;
+}
+
+textarea {
+ 	height:200px;
+ 	width:100%;
+}
+
+input[type=button] {
+    background-color: #4aaaa5; 
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    margin-top:30px;
+    display: inline-block;
+    font-size: 18px;
+}
+input[type=button]:hover {
+	font-style:italic;
+}
+#messageLabel{
+	margin-top: 10px;
+}
+input[type=button]:hover {
+	font-style:italic;
+}
+.portLabel:hover{
+	font-style:italic;
+}
+.iconPic:hover{
+	
+	background-color: lightpink;
+}
+li:hover{
+	background-color:lightgrey; 
+}
+
+
+@media screen and (max-width: 768px) {
+	nav{
+		position:static;
+	}
+	.container{
+		margin:0px 30px 0px 30px;
+	}
+	.proPic{
+		margin-bottom: 20px;
+	}
+	.portColn{
+		margin-left: 30px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.container{
+		margin:0px 10px 0px 10px;
+	}
+	.portColn{
+		margin-left: 0px;
+	}
+	
+}
+
